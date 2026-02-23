@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
     <!-- Кастомные стили (минимум, только для того, что нельзя сделать через Bootstrap) -->
-    <link rel="stylesheet" href="custom.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -146,46 +146,56 @@
     </section>
 
     <!-- ======== СЕТКА С РАЗНЫМИ РАЗМЕРАМИ ЯЧЕЕК ======== -->
-    <section id="animals" class="row mb-5">
-        <div class="col-12">
-            <h2 class="text-success border-bottom pb-2">Для каких животных</h2>
-        </div>
-        
-        <!-- Разные размеры колонок для демонстрации сетки -->
-        <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card h-100 border-success">
-                <div class="card-header bg-success text-white">
-                    <h4 class="mb-0"><i class="bi bi-dog me-2"></i>Собаки</h4>
-                </div>
+    <h1 class="mb-4 text-success border-bottom pb-2" >Для каких животных</h1>
+
+<div class="row g-4">
+    <!-- Собаки -->
+    <div class="col-md-4">
+        <a href="/dogs" class="text-decoration-none">
+            <div class="card h-100 border-0 shadow-lg">
                 <div class="card-body">
-                    <p>Корма, игрушки, аксессуары для собак всех пород</p>
+                    <h2 class="card-title h3 text-primary">Собаки</h2>
+                    <p class="card-text text-secondary">Корма, игрушки, аксессуары для собак всех пород</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    
                 </div>
             </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 mb-3">
-            <div class="card h-100 border-success">
-                <div class="card-header bg-success text-white">
-                    <h4 class="mb-0"><i class="bi bi-cat me-2"></i>Кошки</h4>
-                </div>
+        </a>
+    </div>
+    
+    <!-- Кошки -->
+    <div class="col-md-4">
+        <a href="/cats" class="text-decoration-none">
+            <div class="card h-100 border-0 shadow p-3 mb-5 bg-body rounded">
                 <div class="card-body">
-                    <p>Все для кошек: от корма до когтеточек</p>
+                    <h2 class="card-title h3 text-success" >Кошки</h2>
+                    <p class="card-text text-secondary">Все для кошек: от корма до когтеточек</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    
                 </div>
             </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-12 mb-3">
-            <div class="card h-100 border-success">
-                <div class="card-header bg-success text-white">
-                    <h4 class="mb-0"><i class="bi bi-bug me-2"></i>Грызуны</h4>
-                </div>
+        </a>
+    </div>
+    
+    <!-- Грызуны -->
+    <div class="col-md-4">
+        <a href="/rodents" class="text-decoration-none">
+            <div class="card h-100 border-0 shadow p-3 mb-5 bg-body rounded">
                 <div class="card-body">
-                    <p>Клетки, корм, опилки для хомяков, кроликов, морских свинок</p>
+                    <h2 class="card-title h3 text-warning">Грызуны</h2>
+                    <p class="card-text text-secondary">Клетки, корм, опилки для хомяков, кроликов, морских свинок</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    
                 </div>
             </div>
-        </div>
+        </a>
+    </div>
+</div>
         
-        <!-- Демонстрация разных размеров колонок -->
+        <!-- Демонстрация разных размеров колонок
         <div class="col-12 mt-4">
             <h3 class="h5 text-success">Демонстрация разных размеров ячеек сетки:</h3>
         </div>
@@ -201,9 +211,10 @@
         <div class="col-6 col-md-3 mb-2">
             <div class="p-3 bg-light text-center border">col-6 col-md-3</div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ======== КНОПКИ / ГРУППЫ КНОПОК (компонент c) ======== -->
+     <br><br>
     <section class="row mb-5">
         <div class="col-12">
             <h2 class="text-success border-bottom pb-2">Наши услуги</h2>
